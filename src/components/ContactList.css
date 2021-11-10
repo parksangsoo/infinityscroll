@@ -1,0 +1,73 @@
+.navbar {
+  height: 50px;
+  background-color: #3f51b6 !important;
+}
+.cardContainer {
+  padding: 0 129px;
+  margin-top: 65px;
+}
+.cardDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.cardDiv .extraDetails {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+.cardDiv img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.imgDiv {
+  display: flex;
+  align-items: center;
+}
+.card-body {
+  padding: 0;
+}
+.box {
+  border-radius: 5px;
+  margin: 15px 0 !important;
+}
+.box a:hover {
+  text-decoration: none;
+}
+.box .card-title {
+  font-size: 23px;
+  color: #484e55;
+  margin-bottom: 0px;
+}
+.box .card-subtitle div p:nth-child(1) {
+  font-size: 14px;
+  color: #899eb0;
+  margin-bottom: 5px;
+}
+.box .card-subtitle div p:nth-child(2) {
+  font-size: 14px;
+  color: #484e55;
+  margin-bottom: 10px;
+}
+.box .card-subtitle div:nth-child(2) {
+  margin-top: 9px;
+}
+.box .card-text {
+  position: absolute;
+  right: 30px;
+  color: #484e55;
+  font-size: 12px;
+  text-decoration: underline;
+  bottom: 25px;
+}
+.infinite-scroll-component {
+  overflow: hidden !important;
+}
+.cardLoader {
+  text-align: center;
+  font-size: 25px;
+  padding: 15px;
+  border: 1px solid #3f51b6;
+  color: #3f51b6;
+}
